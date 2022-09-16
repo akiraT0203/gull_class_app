@@ -104,7 +104,7 @@ def signup(request):
          # new_user の情報からログイン処理を行う
         login(request, new_user)
         # ログイン後のリダイレクト処理
-      return redirect('index')
+      return redirect('imageupload')
   # POST で送信がなかった場合の処理
   else:
     form = SignUpForm()
