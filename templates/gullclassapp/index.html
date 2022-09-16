@@ -1,0 +1,17 @@
+{% extends 'gullclassapp/base.html' %}
+{% block content %}
+<div class="container" style="margin-top: 30px;">
+    <h3>名前を予測したい画像を選択してください</h>
+</div>
+    <br />
+<div class="container" style="margin-top: 30px;">
+    <form action="" method="POST", class="form" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-success" style="margin-top: 20xp;">
+            推論
+        </button>
+    </form>
+</div>
+{% endblock %}
+
