@@ -4,7 +4,6 @@ aiosignal==1.2.0
 asgiref==3.5.2
 async-timeout==4.0.2
 attrs==22.1.0
-blas==1.0
 blinker==1.4
 brotlipy==0.7.0
 ca-certificates==2022.07.19
