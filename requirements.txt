@@ -9,8 +9,6 @@ idna==3.3
 numpy==1.23.1
 pillow==9.2.0
 psycopg2==2.8.6
-python==3.9.12
-python_abi==3.9
 pytorch==1.12.1
 pytorch-lightning==1.7.5
 pytorch-mutex==1.0
