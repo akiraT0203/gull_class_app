@@ -1,5 +1,4 @@
 asgiref==3.5.2
-ca-certificates==2023.01.10
 certifi==2022.12.7
 click==8.0.4
 colorama==0.4.6
